@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo form sever cho khách</title>
+</head>
+<body>
+   <h3>Market Research Survey</h3>
+   <p>Please take a few moments to complete this satisfaction survey.</p>
+   <hr>
+   <form style="width: 400px; height: 250px; background-repeat: inherit">
+       <p style="font-weight: bold;">What is your age range?</p>
+      <select style="width: 500px; height: 25px">
+          <option value="giatri1">18-24</option>
+          <option value="giatri2">25-34</option>
+          <option value="giatri3">35-50</option>
+          <option value="giatri4">50+</option>
+      </select>
+       <br>
+       <p style="font-weight: bold">What is your yearly income range?</p>
+       <select style="width: 500px; height: 25px">
+           <option value="">$0-$25,000</option>
+           <option value="">$25.001-$50,000</option>
+           <option value="">$50,001-$100,000</option>
+           <option value="">$100,000+</option>
+       </select>
+       <br>
+       <p>Gender Identily</p>
+       <label><input type="radio" name="gioi tinh"> &nbsp;Male</label><br>
+       <label><input type="radio" name="gioi tinh"> &nbsp;Famale</label><br>
+       <label><input type="radio" name="gioi tinh"> &nbsp;Nonbinary</label><br>
+       <label><input type="radio" name="gioi tinh"> &nbsp;Other</label><br>
+       <input type="text" name="khac" style="margin-left: 30px"><br>
+       <div>
+           <p style="font-weight: bold">Which of following products have your purchased in the last 2 months.Please check all that apply.</p>
+           <label><input type="radio" name="giatri">&nbsp; Product 1</label><br>
+           <label><input type="radio" name="giatri"> &nbsp; Procduct 2</label><br>
+           <label><input type="radio" name="giatri"> &nbsp; Procduct 3</label><br>
+           <p>How often wuold you use new product</p>
+           <label><input type="radio" name="time"> &nbsp; Daily</label><br>
+           <label><input type="radio" name="time"> &nbsp; Weekly</label><br>
+           <label><input type="radio" name="time"> &nbsp; Monthly</label><br>
+       </div>
+       <div>
+           <p style="font-weight: bold"> What eould you pay for the new product</p>
+            $ <input style="margin-left: 15px" type="text" name="dola"> &nbsp;.<input style="margin-left: 10px; width: 15px" type="text" name="Cents"><br
+       </div>
+       <p style="font-weight: bold">What features would you like to see in the new prodcut.</p>
+   </form>
+</body>
+</html>

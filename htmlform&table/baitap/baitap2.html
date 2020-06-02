@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo form cơ bản</title>
+
+</head>
+<body>
+<div style="width: 400px; background-color: wheat; margin-left: 500px; height: 280px">
+    <form action="taoformcoban.html">
+        <p style="background-color: chocolate; color: white" align="center">SỞ THÍCH CỦA BẠN</p>
+        <p style="margin-left: 15px">Họ và tên<input type="text" name="yourname" placeholder="yourname" style="margin: 10px;"></p>
+        <p style="margin-left: 15px">Email<input type="text" name="email" placeholder="email" style="margin-left: 33px"></p>
+       <div>
+           <label style="margin-left: 15px">Sở thích</label>
+       </div>
+        <div style="color: red; margin-left: 70px; ">
+            <label><input type="checkbox" value="sport">Thể thao</label>
+            <label><input style="margin-left: 16px" type="checkbox" value="luotweb">Lướt web</label>
+            <label><input style="margin-left: 22px" type="checkbox" value="travel">Du lịch</label>
+        </div>
+        <div style="color: red; margin-left: 70px">
+            <label><input type="checkbox" value="amnhac">Âm nhạc</label>
+            <label><input type="checkbox" value="phaygame">Chơi game</label>
+            <label><input type="checkbox" value="dienanh">Điện ảnh</label>
+        </div>
+        <div style="color: red;margin-left: 70px;">
+            <label><input type="checkbox" value="docsach">đọc sách</label>
+        </div>
+        &nbsp;
+        <div style="margin-left: 65px">
+            <input type="submit" value="Gửi thông tin" style="margin-left: 20px">
+            <input type="reset" value="Nhập lại">
+        </div>
+    </form>
+    <hr>
+    &nbsp;
+    <div style="background-color: yellow; width: 450px; height: 430px;">
+    <h1 style="background-color: greenyellow; color: blue; margin-left: 15px" > Đăng Kí Học Viên</h1>
+     <label style="margin-left: 15px">Họ và tên<input type="text" name="name" size="30" placeholder="name" style="margin-left: 28px"></label><br>
+     <label style="margin-left: 15px">Ngày sinh<input type="text" name="ngaysinh" size="15" style="margin-left: 25px"></label>
+        <p style="margin-left: 15px">Giới tính
+        <label style="margin-left:25px"><input type="radio" name="giới tính" value="made">Nam</label>
+        <label><input type="radio" name="giới tính" value="female">Nữ</label>
+        </p>
+        <p style="margin-left: 15px">Địa chỉ</p>
+        <textarea cols="30" rows="5" style="margin-left: 95px"></textarea>
+        <p style="margin-left: 15px">Lớp
+            <select style="margin-left: 65px" >
+                <option value="class">-Chon lớp-</option>
+                <option value="lop1">Lớp 1</option>
+                <option value="lop2">Lớp 2</option>
+                <option value="lop3">Lớp 3</option>
+                <option value="lop4">Lớp 4</option>
+            </select>
+        </p>
+        <label style="margin-left: 15px">Email</label>
+            <input style="margin-left: 53px" type="text" name="email" size="30">
+        <p style="margin-left: 15px">Điện thoại
+            <input  style="margin-left: 23px" type="text" name="phone" size="30" placeholder="phonenumber">
+        </p>
+        <div style="margin-left: 100px">
+        <input type="submit" value="Đăng kí">
+        <input type="reset" value="Nhập lại">
+        </div>
+    </div>
+</div>
+</body>
+</html>

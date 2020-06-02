@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04b6e004-0881-4e5d-8542-694fa0b311b6" name="Default Changelist" comment="" />
+    <list default="true" id="04b6e004-0881-4e5d-8542-694fa0b311b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Javascript/baitap/bai1/bai3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/baitap/bai1/bt3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/baitap/bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/baitap/bt2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/thuchanh/bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/thuchanh/t.hanh2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/thuchanh/t.hanh3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/thuchanh/t.hanh4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html&amp;git/baitap/bt2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html&amp;git/baitap/bt3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html&amp;git/baitap/tuong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html&amp;git/thuchanh/taodanhsach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/baitap/baitap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/baitap/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/thuchanh/formcoban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/thuchanh/formtimkiemgoogle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/baitap/bt2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/baitap/bt3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/baitap/tuong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/thuchanh/taodanhsach.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -18,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cZtOHuewAz4LnTpCvhmXUpDNP9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,6 +78,17 @@
       <option name="presentableId" value="Default" />
       <updated>1590747909630</updated>
       <workItem from="1590747912472" duration="4183000" />
+      <workItem from="1590773998994" duration="1289000" />
+      <workItem from="1590817892646" duration="3497000" />
+      <workItem from="1590847594801" duration="2264000" />
+      <workItem from="1590911596319" duration="7214000" />
+      <workItem from="1590974441061" duration="16335000" />
+      <workItem from="1591004575068" duration="317000" />
+      <workItem from="1591009059766" duration="4923000" />
+      <workItem from="1591016424366" duration="3121000" />
+      <workItem from="1591019641982" duration="1205000" />
+      <workItem from="1591036133050" duration="1256000" />
+      <workItem from="1591061132002" duration="2242000" />
     </task>
     <servers />
   </component>
@@ -60,13 +96,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="523" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591061756859">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="523" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591061756859" />
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1590774055735">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1590774055735" />
     <state x="548" y="188" key="FileChooserDialogImpl" timestamp="1590750647012">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="548" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1590750647012" />
-    <state x="277" y="76" key="SettingsEditor" timestamp="1590750649096">
+    <state x="277" y="76" key="SettingsEditor" timestamp="1590774067616">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590750649096" />
+    <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590774067616" />
+    <state x="462" y="30" width="611" height="804" key="find.popup" timestamp="1590977964957">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="462" y="30" width="611" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1590977964957" />
   </component>
 </project>
