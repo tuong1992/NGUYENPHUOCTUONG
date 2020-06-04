@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04b6e004-0881-4e5d-8542-694fa0b311b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/baitap/formdknguoidung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/baitap/taobangdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/baitap/taobangnangcao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/thuchanh/taobangdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/htmlform&amp;table/thuchanh/taobangnangcao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript/baitap/vd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/chuongtrinhnhapdiem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/chuvihinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/chuyendoitiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/dientichhinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/nhietdo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/taomaytinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/baitap/ungdungmaytinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/thuchanh/bien.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/thuchanh/khaibaovasudungbien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/thuchanh/khaibaovasudungbien1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien,kieu,dulieu,toantu/thuchanh/sudungtoantu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdk/cautrucdk1/thuchanh/kiemtranamnhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cautrucdk/cautrucdk1/thuchanh/luyentapifelse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html&amp;git/baitap/bt3.html" beforeDir="false" afterPath="$PROJECT_DIR$/html&amp;git/baitap/bt3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlform&amp;table/baitap/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlform&amp;table/baitap/iframe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +87,16 @@
       <workItem from="1591036133050" duration="1256000" />
       <workItem from="1591061132002" duration="11838000" />
       <workItem from="1591073147402" duration="42000" />
-      <workItem from="1591079549133" duration="1726000" />
+      <workItem from="1591079549133" duration="1956000" />
+      <workItem from="1591095701822" duration="2539000" />
+      <workItem from="1591113495486" duration="1080000" />
+      <workItem from="1591147897756" duration="3900000" />
+      <workItem from="1591151872702" duration="15928000" />
+      <workItem from="1591178215476" duration="137000" />
+      <workItem from="1591178814506" duration="1013000" />
+      <workItem from="1591179919420" duration="181000" />
+      <workItem from="1591192455746" duration="1492000" />
+      <workItem from="1591242205524" duration="5530000" />
     </task>
     <servers />
   </component>
@@ -84,14 +104,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="523" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591061756859">
+    <state x="523" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591148409402">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="523" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591061756859" />
-    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1590774055735">
+    <state x="523" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1591148409402" />
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1591154555861">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1590774055735" />
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591154555861" />
     <state x="548" y="188" key="FileChooserDialogImpl" timestamp="1590750647012">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -104,5 +124,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="462" y="30" width="611" height="804" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1590977964957" />
+    <state x="799" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1591152344537">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="799" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1591152344537" />
   </component>
 </project>

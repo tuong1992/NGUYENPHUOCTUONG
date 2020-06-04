@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<form>
+    <h2 style="font-weight: bold">Caculator</h2>
+    <div>
+        <label><input type="text" id="a" style="width: 150px"></label>
+        <label><input type="text" id="b" style="width: 150px"></label>
+    </div>
+    <br>
+    <div>
+        <button type="button" onclick="phepcong()x" value="Addition(+)">Addition(+)</button>
+        <button type="button" onclick="pheptru()" value="Subtraction(-)">Subtraction(-)</button>
+        <button type="button" onclick="phepnhan()" value="Multiplication(X)">Multiplication(X)</button>
+        <button type="button" onclick="phepchia()" value="Division(/)">Division(/)</button>
+    </div>
+</form>
+<p id="kq"></p>
+<script>
+    function phepcong() {
+        let num1 = parseInt(document.getElementById('a').value);
+        let num2 = parseInt(document.getElementById('b').value);
+        let C = num1 + num2;
+        document.getElementById('kq').innerHTML = C;
+    }
+
+    function phepnhan() {
+        let num1 = parseInt(document.getElementById('a').value);
+        let num2 = parseInt(document.getElementById('b').value);
+        let C1 = num1 * num2;
+        document.getElementById('kq').innerHTML = C1;
+    }
+
+    function pheptru() {
+        let num1 = parseInt(document.getElementById('a').value);
+        let num2 = parseInt(document.getElementById('b').value);
+        let C2 = num1 - num2;
+        document.getElementById('kq').innerHTML = C2
+    }
+
+    function phepchia() {
+        let num1 = parseInt(document.getElementById('a').value);
+        let num2 = parseInt(document.getElementById('b').value);
+        let C3 = num1 / num2;
+        document.getElementById('kq').innerHTML = C3;
+    }
+</script>
+</body>
+</html>

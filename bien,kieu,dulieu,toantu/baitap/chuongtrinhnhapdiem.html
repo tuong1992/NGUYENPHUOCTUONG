@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Chương trình nhập điểm cho một học sinh</title>
+</head>
+<body>
+<script>
+    let inputPhysical;
+    let inputChemistry;
+    let inputBiological;
+   inputPhysical= prompt("nhập điểm môn vật lý");
+   inputChemistry= prompt("nhập điểm môn hoá học");
+   inputBiological= prompt("nhập điểm môn sinh học");
+   let physical=parseInt(inputPhysical);
+   let chemistry=parseInt(inputChemistry);
+   let biological=parseInt(inputBiological);
+   let area=(physical+chemistry+biological)/3;
+   document.write('trungbinh='+area);
+   let tong=(physical+chemistry+biological);
+   document.write('diemtong='+tong);
+</script>
+</body>
+</html>

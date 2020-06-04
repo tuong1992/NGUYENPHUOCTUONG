@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyển đổi tiền tệ</title>
+</head>
+<body>
+<form>
+    <div>
+    <label style="font-weight: bold; margin-left: 30px">Amount</label><br>
+    <input type="text" name="số" id="num">
+    <label style="margin-left: 20px">From Currency</label>
+    <select style="width: 100px" id="from">
+        <option value="VND">VietNam</option>
+        <option value="YEN">Japan</option>
+    </select>
+    <label style="margin-left: 20px">To Currency</label>
+    <select style="width: 70px" id="to">
+        <option value="YEN">YEN</option>
+        <option value="VND">VND</option>
+    </select>
+    <button input style="background-color: blue; color: white;margin-left: 50px; width: 100px" type="buttont" value="Convert" onclick="chuyentien()">Convert</button>
+    </div>
+</form>
+<script>
+    function chuyentien () {
+        let number =parseInt(document.getElementById('num').value);
+        let from =(document.getElementById('from').value);
+        let to =(document.getElementById('to').value);
+        let kq=0;
+        if (from=="VND"&&to=="YEN"){
+            kq=number*220;
+            //alert(number+ " VND = "+ kq+" Yen");
+            document.write(number+ "YEN="+ kq+ "VND");
+        }else if (from=="YEN"&&to=="VND"){
+            kq=number/220;
+            //alert(number+ " YEN = "+ kq+" VND");
+            document.write(number+ " VND = "+ kq+" YEN");
+        }else {
+            alert('cần nhập lại giá trị tiền');
+        }
+
+    }
+</script>
+</body>
+</html>
